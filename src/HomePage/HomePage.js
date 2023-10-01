@@ -80,19 +80,6 @@ function HomePage() {
                     </p>
                 </div>
             </article>
-            
-    
-            <article role="region">
-                <div className="text-box">
-                    <h3>Week 04 Budget Pie Chart</h3>
-                    <p>
-                        <canvas id="myChart" width="400" height="400"></canvas>
-                    </p>
-                </div>
-                <h3>Week 04 D3JS Chart</h3>
-                <div id="pie-chart"></div> 
-            </article>
-            
         </div>
 
     </div>

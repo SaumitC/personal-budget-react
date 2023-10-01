@@ -12,6 +12,8 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import Chartjsviz from './Chartjsviz/Chartjsviz';
+import D3jsviz from './D3jsviz/D3jsviz';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path='/login' element={<LoginPage/>} />
         </Routes>
       </div>
+      <Chartjsviz/>
+      <D3jsviz/>
       <Footer/>
     </Router>
   );
